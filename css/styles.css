@@ -1,0 +1,157 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 8.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 0;
+    color: white;
+    height: 800px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 4.5rem;
+}
+.btn-dark{
+    margin-right: 10px;
+}
+.nav-link{
+    font-size: 20px;
+    margin-bottom: 4.5rem;
+    font-family: 'Montserrat-light';
+}
+.nav-item{
+    padding: 0 18px;
+}
+.title-image{
+    position: relative;
+}
+.doggie{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative; 
+    top: 100px;
+    left: 100px;
+    margin-bottom: 100px;
+}
+.img-sec-2{
+    font-size: 5rem;
+    color: #ef8172;
+    margin-bottom: 20px;   
+}
+.img-sec-2:hover{
+    color: #ff4c68;
+}
+h3{
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+    color: black;
+}
+.testimonial-text{
+    font-family: 'Montserrat';
+    color: #fff;
+    line-height: 1.5;
+}
+.sec-2{ 
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.col-lg-4{
+    padding: 5%;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+
+}
+.testimonials-img{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+#press{
+    text-align: center;
+background-color: #ef8172;
+padding-bottom: 3%;
+}
+.press-img{
+    width: 12%;
+    margin: 20px 15px 10px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.btn{
+    width: 100%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;  
+}
+.cta-text{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding: 7% 20% 0;
+    font-family: 'Montserrat';
+}
+.btn-cta{
+    padding: 0 20%;
+}
+.btn-cta-1{
+   margin: 0 0 0 150px;
+}
+#footer{
+    background-color:#fff ;
+    padding: 40px;
+    text-align: center;
+}
+.footer-text{
+    color: #8f8f8f;
+    margin-top: 15px;
+}
+.footer-icon{
+    margin: 7px;
+}
+@media (max-width: 1028px) {
+    .doggie{
+        position: static;
+        transform: rotate(0);
+        margin: 40px 25% 0;
+    }
+    h1{
+        text-align: center;
+    }
+    #features{
+        position: static;
+    }
+    .container-fluid{
+        height: 1190px;
+    }
+    .btn-cta-1{
+        margin: 0 auto;
+    }
+}
